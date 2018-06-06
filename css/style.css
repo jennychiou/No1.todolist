@@ -1,0 +1,178 @@
+html, body {
+    font-size: 100%;
+    font-family: 'Roboto Medium', sans-serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+p, ul li, ol li {
+    margin: 0;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Medium', monospace;
+    margin: 0;
+}
+
+ul, label {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+input[type="submit"], input[type="reset"], .w3l_team_grd, .agileits_w3layouts_features_gridr h4, .agile_feature_grid, .agile_services_grid_pos, a, .w3l_footer_grid, .w3_two_grid_right_grid1, .w3_two_grid_right_grid1 i {
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+/*-- navbar --*/
+.nav-links .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+.nav-links .navbar {
+    margin-bottom: 0px;
+}
+
+.nav-links .navbar-inverse {
+    background-color: #4A90E2;
+    border: none;
+}
+
+    .nav-links .navbar-inverse .navbar-brand h1 {
+        color: #ff5500;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+.nav-links .navbar-brand {
+    height: inherit;
+    padding: 16px 0 0;
+}
+
+.nav-links .navbar-nav > li > a {
+    padding: 30px 25px;
+    color: #00408B;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #4A90E2;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+.nav-links .navbar-inverse .navbar-nav > .active > a, .nav-links .navbar-inverse .navbar-nav > .active > a:focus, .nav-links .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #4A90E2;
+}
+
+.navbar-header {
+    width: 30%;
+    float: left;
+}
+
+div#myNavbar {
+    width: 70%;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.link-effect a {
+    padding: 0 0 10px;
+}
+
+    .link-effect a::after {
+        position: absolute;
+        top: 94%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #00408B;
+        content: '';
+        opacity: 0;
+        -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+        -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+        transition: height 0.3s, opacity 0.3s, transform 0.3s;
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    .link-effect li.active a::after,
+    .link-effect a:hover::after {
+        height: 5px;
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: #fff;
+}
+
+.content {
+    background-color: #c8c8c8;
+}
+
+.addBtn {
+    margin: 10px 100px 10px 100px;
+    padding: 10px;
+    width: 70%;
+    background: #ffffff;
+    color: #c8c8c8;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    /*transition: 0.3s;*/
+}
+
+    /*.addBtn:hover {
+        background-color: #bbb;
+    }*/
+
+.addBtn2 {
+    margin: 4px 100px 4px 100px;
+    padding: 15px;
+    width: 70%;
+    height: 30%;
+    color: black;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.addBtn3 {
+    margin: 0px 150px 3px 100px;
+    padding: 8px;
+    width: 70%;
+    height: 30%;
+    color: black;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 3px;
+}
